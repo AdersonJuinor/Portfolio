@@ -13,7 +13,7 @@ const Hero = () => {
                 </div>
             </div>
             <div className="hero-image animate-on-scroll" data-animation="fade-in-up" data-delay="0.4s">
-                <img src="src/assets/img/eu.jpg" alt="Foto de Perfil de Aderson Junior" /> 
+                <img src="/eu.jpg" alt="Foto de Perfil de Aderson Junior" /> 
             </div>
         </section>
     );

@@ -5,7 +5,7 @@ const projectData = [
     {
         title: "SafeDose", 
         description: "Ferramenta de apoio para profissionais da saúde",
-        imageSrc: "src/assets/img/safedose.png",
+        imageSrc: "/safedose.png",
         tags: ["Flask", "SQLite", "Python", "JavaScript", "HTML", "CSS"],
         viewLink: "https://safedose.onrender.com/entrar",
         githubLink: "https://github.com/AdersonJuinor/SafeDose"
@@ -13,7 +13,7 @@ const projectData = [
     {
         title: "Diario Digital", 
         description: "Site para relacionamento. Onde voce pode fazer uma homenagem para seu parceiro, ver a linha do tempo com a contagem de dias e albuns com memorias do casal.",
-        imageSrc: "src/assets/img/diariodigital.png",
+        imageSrc: "/diariodigital.png",
         tags: ["Flask", "Python", "HTML", "CSS", "SQLite"],
         viewLink: "https://diario-digital-mcvz.onrender.com",
         githubLink: "https://github.com/AdersonJuinor/diario-digital"
@@ -21,7 +21,7 @@ const projectData = [
     {
         title: "Portfolio RPG", 
         description: "Site interativo com temática de RPG, desenvolvido do zero. Combina design imersivo e lógica personalizada para representar o estilo e a trajetória do usuário de forma única.",
-        imageSrc: "src/assets/img/rpg.png",
+        imageSrc: "/rpg.png",
         tags: ["JavaScript", "HTML", "CSS"],
         viewLink: "https://rickzgg27.github.io/Portfolio/",
         githubLink: "https://github.com/rickzgg27/Portfolio"
