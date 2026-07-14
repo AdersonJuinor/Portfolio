@@ -4,27 +4,53 @@ import React from 'react';
 const projectData = [
     {
         title: "SafeDose", 
-        description: "Ferramenta de apoio para profissionais da saúde",
+        description: "",
         imageSrc: "/safedose.png",
         tags: ["Flask", "SQLite", "Python", "JavaScript", "HTML", "CSS"],
         viewLink: "https://safedose.onrender.com/entrar",
-        githubLink: "https://github.com/AdersonJuinor/SafeDose"
+       
     },
     {
-        title: "Diario Digital", 
-        description: "Site para relacionamento. Onde voce pode fazer uma homenagem para seu parceiro, ver a linha do tempo com a contagem de dias e albuns com memorias do casal.",
-        imageSrc: "/diariodigital.png",
-        tags: ["Flask", "Python", "HTML", "CSS", "SQLite"],
-        viewLink: "https://diario-digital-mcvz.onrender.com",
-        githubLink: "https://github.com/AdersonJuinor/diario-digital"
+        title: "Clínica", 
+        description: "",
+        imageSrc: "/clinica.png",
+        tags: [ "HTML", "CSS", "JavaScript"],
+        viewLink: "https://clinicas-eta.vercel.app",
     },
     {
-        title: "Portfolio RPG", 
-        description: "Site interativo com temática de RPG, desenvolvido do zero. Combina design imersivo e lógica personalizada para representar o estilo e a trajetória do usuário de forma única.",
-        imageSrc: "/rpg.png",
+        title: "Dentista", 
+        description: "",
+        imageSrc: "/dentista.png",
         tags: ["JavaScript", "HTML", "CSS"],
-        viewLink: "https://rickzgg27.github.io/Portfolio/",
-        githubLink: "https://github.com/rickzgg27/Portfolio"
+        viewLink: "https://dentistas-rho.vercel.app",
+    },
+    {
+        title: "Advogado", 
+        description: "",
+        imageSrc: "/advogado.png",
+        tags: ["JavaScript", "HTML", "CSS"],
+        viewLink: "https://advogados-drab.vercel.app",
+    },
+    {
+        title: "Restaurante", 
+        description: "",
+        imageSrc: "/restaurante.png",
+        tags: ["JavaScript", "HTML", "CSS"],
+        viewLink: "https://restaurantes-8b7n.vercel.app",
+    },
+    {
+        title: "Imobiliária", 
+        description: "",
+        imageSrc: "/imobiliaria.png",
+        tags: ["JavaScript", "HTML", "CSS"],
+        viewLink: "https://imobilirias.vercel.app",
+    },
+    {
+        title: "Contadores", 
+        description: "",
+        imageSrc: "/contadores.png",
+        tags: ["JavaScript", "HTML", "CSS"],
+        viewLink: "https://contadores-ruddy.vercel.app",
     },
 ];
 
@@ -68,7 +94,6 @@ const Projects = ({ openModal }) => {
                         
                         <div className="project-actions">
                             <a href={project.viewLink} className="btn secondary small" target="_blank" rel="noopener noreferrer">Ver Projeto</a>
-                            <a href={project.githubLink} className="btn primary small" target="_blank" rel="noopener noreferrer">GitHub</a>
                         </div>
                     </div>
                 ))}
